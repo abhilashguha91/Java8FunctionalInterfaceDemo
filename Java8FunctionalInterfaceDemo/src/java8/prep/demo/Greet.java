@@ -3,7 +3,7 @@ package java8.prep.demo;
 @FunctionalInterface
 public interface Greet {
 	
-	public String perform();
+	public void perform();
 	
 	//public String anotherMethod();
 	// If you add another method the annotation will throw an compilation error

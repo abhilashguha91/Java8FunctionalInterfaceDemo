@@ -21,6 +21,11 @@ public class FunctionalInterfaceDemo {
 	// functional interface anymore
 
 	public static void main(String[] args) {
+		
+		// Our Functional Interface greet can be used as a type for our lambda variable
+		Greet greetLambda = ()-> System.out.println("Hello World!");
+		// can be used like any other variable and passed into another functions as well
+		greetLambda.perform();
 
 		// Let's try an example we already saw in the Lambda Demo and see what more Java8
 		// has done for it's Functional Interface ease of use
